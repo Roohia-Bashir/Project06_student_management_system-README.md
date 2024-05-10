@@ -1,0 +1,27 @@
+{
+  "name": "r265_student_management_system",
+  "version": "1.0.0",
+  "description": "A student management system organizes student data for enrollment, courses, and records.",
+  "main": "index.js",
+  "type": "module",
+  "bin": "index.js",
+  "publiconfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Roohia Bashir",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/chalk-animation": "^1.6.3",
+    "@types/node": "^20.12.10"
+  },
+  "dependencies": {
+    "chalk": "^5.3.0",
+    "chalk-animation": "^2.0.3",
+    "g": "^2.0.1",
+    "inquirer": "^9.2.20"
+  }
+}
